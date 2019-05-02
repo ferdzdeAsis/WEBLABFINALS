@@ -1,0 +1,9 @@
+Google key Api AIzaSyCxoLtYA5hDrI-GVcoCwJRewTRmHOGiWe0 
+OAuth client	Apr 27, 2019	Web application	546084554306-h6dckjtkgghm30g7gshljrk8sg4d1ci0.apps.googleusercontent.com 	  
+OAuth client	Apr 27, 2019	Web application	546084554306-td2mdo84omnj7eieb6gn6qn0negis02q.apps.googleusercontent.com 	  
+OAuth client	Apr 25, 2019	Web application	546084554306-ro7ol49ikt3kk1qsst1f4mhv804196od.apps.googleusercontent.com 	  
+OAuth client	Apr 25, 2019	Web application	546084554306-7t8kopmokt9chb6u72gu3rtmi0guuqmt.apps.googleusercontent.com 	  
+OAuth client	Apr 25, 2019	Web application	546084554306-giq7bl242f2jhfbkikc3qelbm3arsu6v.apps.googleusercontent.com 	  
+OAuth client	Apr 25, 2019	Web application	546084554306-4212kl46l7qspcmigeqctrh9sc7f6u5h.apps.googleusercontent.com 	  
+Web client (Auto-created for Google Sign-in)	Apr 25, 2019	Web application	546084554306-uavnf69m4bv91feo2tpc7munukmnjsvk.apps.googleusercontent.com 	  
+OAuth client	Apr 25, 2019	Web application	546084554306-vtdit5ovtncqsi66ppm9m2etn4reru4a.apps.googleusercontent.com 
