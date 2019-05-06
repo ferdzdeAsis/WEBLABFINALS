@@ -1,12 +1,15 @@
 <!DOCTYPE HTML>  
 <html>
-<head>
-<style>
-.error {color: #FF0000;}
-</style>
-</head>
+	<head>
+		<style>
+			.error {color: #FF0000;}
+		</style>
+	</head>
+
 <table>
-<body>  
+
+<form>
+	<body>  
 
 
 
@@ -15,162 +18,203 @@
  
 <br><br>
  <table id="tbl" border="1"> 
- <thead>
- </thead>
+	
+	<thead>
+	</thead>
+ 
  <tbody>
-  <td>Name:</td>
-  <td><input type="text" name="name"></td>
-  <td><span class="error">* </span></td>
-  </td>
+	
+	<td>Name:</td>
+		<td><input type="text" name="name"></td>
+			<td><span class="error">* </span></td>
+	</td>
   <tr>
-  <td>Organization/Group/Class:</td>
-  <td><input type="text" name="organization"></td>
-  <td><span class="error">* </span></td>
+  
+	<td>Organization/Group/Class:</td>
+		<td><input type="text" name="organization"></td>
+			<td><span class="error">* </span></td>
   <tr>
-  <td>Adviser:</td>
-  <td><input type="text" name="adviser"></td>
-  <td><span class="error">* </span></td>
+	
+	<td>Adviser:</td>
+		<td><input type="text" name="adviser"></td>
+		<td><span class="error">* </span></td>
   <tr>
-  <td>Avtivity/Event:</td>
-  <td><input type="text" name="activity"></td>
-  <td><span class="error">* </span></td>
+  
+	<td>Avtivity/Event:</td>
+		<td><input type="text" name="activity"></td>
+			<td><span class="error">* </span></td>
   <tr>
-  <td>Venue:</td>
-  <td><select>
-  <option value="avr">AVR</option>
-  <option value="devesselobby">Devesse Lobby</option>
-  <option value="amphitheater">Amphitheater</option>
-  <option value="oval">Oval</option>
-  </select>
-  </td>
-  <td><span class="error">* </span></td>
+	
+	<td>Venue:</td>
+		<td>
+			<select>
+				<option value="avr">AVR</option>
+				<option value="devesselobby">Devesse Lobby</option>
+				<option value="amphitheater">Amphitheater</option>
+				<option value="oval">Oval</option>
+			</select>
+		</td>
+			<td><span class="error">* </span></td>
   <tr>
-  <td>Date of Event:</td>
-  <td><input type="date" name="dateEvent"></td>
-  <td><span class="error">* </span></td>
+  
+	<td>Date of Event:</td>
+		<td><input type="date" name="dateEvent"></td>
+			<td><span class="error">* </span></td>
   <tr>
-  <td>Time:</td> 
-  <td><input type="time" name="time"></td>
-  <td><span class="error">* </span></td>
+  
+	<td>Time:</td> 
+		<td><input type="time" name="time"></td>
+			<td><span class="error">* </span></td>
   <tr>
-  <td>E-mail:</td> 
-  <td><input type="text" name="email"></td>
-  <td><span class="error">* </span></td>
+  
+	<td>E-mail:</td> 
+		<td><input type="text" name="email"></td>
+			<td><span class="error">* </span></td>
   <tr>
-  <td>Gender:</td>
-  <td>
-  <input type="radio" name="gender"> Female
-  <input type="radio" name="gender"> Male
-  <input type="radio" name="gender"> Other
-  </td>
-  <td><span class="error">*</span><td>
+  
+	<td>Gender:</td>
+		<td>
+			<input type="radio" name="gender"> Female
+			<input type="radio" name="gender"> Male
+			<input type="radio" name="gender"> Other
+		</td>
+			<td><span class="error">*</span><td>
+  
   </tbody>
+  </form>
   </table>
    
   Equipment/Material/s to be used:
   <br><br>
   <table id="tbl" border="1">
   <thead>
-  <tr>
-  <td></td>
-  <td>Equipmet/Material/s</td>
-  <td>No.</td>
-  </tr>
+  
+	<tr>
+	<td></td>
+		<td>Equipmet/Material/s</td>
+			<td>No.</td>
+	</tr>
   </thead>
+  
   <tbody>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Bench/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Chair/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Platform/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Table/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Trilboard/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Divider/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Microphone/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Mis Stand/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Karaoke/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Projector/s</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>Sound System</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  <tr>
-  <td>
-  <input type="checkbox" class = "chcktbl" />
-  </td>
-  <td>TV/DVD</td>
-  <td><input type="number" name="quantity" min="1" max="5"></td>
-  </tr>
-  </tbody>
-  </table>
-  <br>
-  <input type="submit" name="submit" value="Submit"> 
+	
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+	
+	<td>Bench/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+	
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+	
+	<td>Chair/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+	
+	<td>Platform/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+	
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+  
+	<td>Table/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+	
+	<td>Trilboard/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+  
+	<td>Divider/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+  
+	<td>Microphone/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+  
+	<td>Mis Stand/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+	
+	<td>Karaoke/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+	
+	<td>Projector/s</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+  
+		<td>Sound System</td>
+			<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+  
+	<tr>
+	<td>
+		<input type="checkbox" class = "chcktbl" />
+	</td>
+  
+	<td>TV/DVD</td>
+		<td><input type="number" name="quantity" min="1" max="5"></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<br>
+	<input type="submit" name="submit" value="Submit"> 
   
  
-</form>
-</table>
+			</form>
+		</table>
 
 
-</body>
+	</body>	
 </html>
