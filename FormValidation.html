@@ -10,41 +10,56 @@
 
 
 
-<h2>Event Form</h2>
+<h1>Event Form</h1>
 <p><span class="error">* required field</span></p>
  
 <br><br>
  <table id="tbl" border="1"> 
-  <input type="text" name="name" placeholder="Name">
-  <span class="error">* </span>
-  <br><br>
-  Organization/Group/Class: <input type="text" name="organization">
-  <span class="error">* </span>
-  <br><br>
-  Adviser: <input type="text" name="adviser">
-  <span class="error">* </span>
-  <br><br>
-  Avtivity/Event: <input type="text" name="activity">
-  <span class="error">* </span>
-  <br><br>
-  Venue: <input type="text" name="venue">
-  <span class="error">* </span>
-  <br><br>
-  Date of Event: <input type="date" name="dateEvent">
-  <span class="error">* </span>
-  <br><br>
-  Time: <input type="time" name="time">
-  <span class="error">* </span>
-  <br><br>
-  E-mail: <input type="text" name="email">
-  <span class="error">* </span>
-  <br><br>
-  Gender:
+ <thead>
+ </thead>
+ <tbody>
+  <td>Name:</td>
+  <td><input type="text" name="name"></td>
+  <td><span class="error">* </span></td>
+  </td>
+  <tr>
+  <td>Organization/Group/Class:</td>
+  <td><input type="text" name="organization"></td>
+  <td><span class="error">* </span></td>
+  <tr>
+  <td>Adviser:</td>
+  <td><input type="text" name="adviser"></td>
+  <td><span class="error">* </span></td>
+  <tr>
+  <td>Avtivity/Event:</td>
+  <td><input type="text" name="activity"></td>
+  <td><span class="error">* </span></td>
+  <tr>
+  <td>Venue:</td>
+  <td><input type="text" name="venue"></td>
+  <td><span class="error">* </span></td>
+  <tr>
+  <td>Date of Event:</td>
+  <td><input type="date" name="dateEvent"></td>
+  <td><span class="error">* </span></td>
+  <tr>
+  <td>Time:</td> 
+  <td><input type="time" name="time"></td>
+  <td><span class="error">* </span></td>
+  <tr>
+  <td>E-mail:</td> 
+  <td><input type="text" name="email"></td>
+  <td><span class="error">* </span></td>
+  <tr>
+  <td>Gender:</td>
+  <td>
   <input type="radio" name="gender"> Female
   <input type="radio" name="gender"> Male
   <input type="radio" name="gender"> Other
-  <span class="error">*</span>
-  <br><br>
+  </td>
+  <td><span class="error">*</span><td>
+  </tbody>
+  </table>
    
   Equipment/Material/s to be used:
   <br><br>
@@ -132,12 +147,14 @@
   <input type="checkbox" class = "chcktbl" />
   </td>
   <td>Sound System</td>
+  <td><input type="number" name="quantity" min="1" max="5"></td>
   </tr>
   <tr>
   <td>
   <input type="checkbox" class = "chcktbl" />
   </td>
   <td>TV/DVD</td>
+  <td><input type="number" name="quantity" min="1" max="5"></td>
   </tr>
   </tbody>
   </table>
